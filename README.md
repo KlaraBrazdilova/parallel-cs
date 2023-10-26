@@ -2,7 +2,7 @@
 
 Soubory obsahují velmi jednoduché demostrace použití některých (nejčastějších) funkcionalit pro paralelní programování v jazyce C#. 
 
-1. 'Threads.cs' - soubor obsahuje základní ukázu vytváření, spuštění a ukončení vláken na příkladu sdíleného čítače.
+1. Threads.cs - soubor obsahuje základní ukázu vytváření, spuštění a ukončení vláken na příkladu sdíleného čítače.
 2. ThreadPool.cs - příklad stejný jako s vlákny, ale za použití pool vláken (recyklace vláken)
 3. class-parallel.cs - ukázka použití knihovny TPL a její třídy Parallel(for, foreach, invoke)
 4. task.cs - knihovka TPL a třída Task
