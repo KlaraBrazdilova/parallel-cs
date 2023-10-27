@@ -1,6 +1,6 @@
 using System.Text;
 
-static async Task<String> loadAsync(string path)
+static async Task<string> loadAsync(string path)
 {
     try
     {
@@ -15,7 +15,7 @@ static async Task<String> loadAsync(string path)
     }
 }
 
-static async Task<String> ReadFileAsync(string filePath)
+static async Task<string> ReadFileAsync(string filePath)
 {
     using (StreamReader reader = new StreamReader(filePath))
     {
